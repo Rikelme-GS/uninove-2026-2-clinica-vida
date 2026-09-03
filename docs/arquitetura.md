@@ -35,3 +35,6 @@ Addresses:  2800:3f0:4001:80d::200e
 | GET    | svg/xml                | 200    |
 | POST   | log                    | 200    |
 | GET    | /pagina-que-nao-existe | 404    |
+
+O formulário de agendamento da Clínica Vida+ precisa utilizar HTTPS para proteger os dados enviados pelo paciente durante a comunicação com o servidor. Dessa forma, as informações ficam criptografadas e mais protegidas contra interceptações. Um exemplo de dado sensível enviado pelo formulário é o CPF do paciente, além de informações relacionadas ao agendamento e aos seus dados pessoais.
+
