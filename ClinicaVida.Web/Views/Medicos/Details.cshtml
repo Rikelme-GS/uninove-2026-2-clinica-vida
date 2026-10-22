@@ -1,0 +1,13 @@
+@model Medico
+@using ClinicaVida.Web.Models
+
+@{
+    ViewData["Title"] = "Detalhes do médico";
+}
+
+<h2>@Model.Nome</h2>
+
+<p>CRM: @Model.Crm</p>
+<p>Especialidade: @(Model.Especialidade?.Nome ?? "não informada")</p>
+
+<p><a href="/Medicos">Voltar para o corpo clínico</a></p>
